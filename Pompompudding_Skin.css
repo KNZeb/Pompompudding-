@@ -10,6 +10,20 @@ h6,
   font-weight: 400;
 }
 
+p.kudos {
+  background: none;
+}
+
+div #kudos::before {
+  content: "";
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  background-image: url("https://64.media.tumblr.com/26b0174c121dfe0ae4cded611c18d80e/88590c5e3d9627b3-fb/s75x75_c1/056c2c59429af6d4eab5081692dd096e13066d1d.png");
+  background-size: cover;
+  filter: brightness(1.08) contrast(0.95) saturate(1.2);
+}
+
 #footer {
   background: url(https://64.media.tumblr.com/4a0225c82d2beff9dfca5dada7eb28c0/c2d271894a4c0b8f-5a/s400x600/d0fb29787e4e4d0f22d22f7cb3bb16e1efe4ef15.png);
   background-size: 250px;
